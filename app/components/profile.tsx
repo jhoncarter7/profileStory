@@ -1,9 +1,9 @@
 "use client"
 
 import Image from "next/image"
-import { Dispatch, SetStateAction, useEffect, useState } from "react"
+import { Dispatch, SetStateAction } from "react"
 import { storiesData } from "../data/stories"
-import ProfileStories from "./stories"
+
 
 interface ProfilePicProps {
   setId: Dispatch<SetStateAction<string | undefined>>;

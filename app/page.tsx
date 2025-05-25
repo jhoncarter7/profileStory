@@ -1,7 +1,5 @@
 "use client"
 
-import Image from "next/image";
-import ProfileStrories from "./components/profile";
 import ProfilePic from "./components/profile";
 import { useState } from "react";
 import ProfileStories from "./components/stories";

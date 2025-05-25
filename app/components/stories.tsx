@@ -1,7 +1,6 @@
 "use client"
 import { Dispatch, SetStateAction, useEffect, useState } from "react"
 import { storiesData, Story } from "../data/stories"
-import Image from "next/image";
 
 interface ProfileStoriesProps {
     userId: string;
